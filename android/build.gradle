@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-
+    namespace 'com.tablemi.flutter_bluetooth_basic'
     defaultConfig {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
